@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #ECF2F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner{
+    border-radius:  10px ;
+    display: flex;
+    width: 730px;
+    height: 281px;
+    background-color: #FFF;
+}
+
+.baslik h4{
+    padding: 32px 40px 12px 40px;
+    color: #48556A;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 140% */
+    letter-spacing: 0.25px;
+}
+
+.baslik p {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #6E8098;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 153.846% */
+    letter-spacing: 0.122px;
+}
+
+.footer{
+    display: flex;
+    margin: 12px 20px;
+    width: 400px;
+    height: 40px;
+    
+}
+
+.footer-profil{
+    margin-left: 20px;
+}
+
+.footer-icerik h3{
+    color: #48556A;
+    margin-left: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 153.846% */
+   
+}
+
+
+.footer-p{
+    color: #9DAEC2;
+    margin-left: -20px;
+}
+
+
+.footer-oval{
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    background: url(../img/Oval\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 50px;
+    height: 50px;
+}
+
+
+.footer-oval:hover{
+    background: url(../img/Oval\ 3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
